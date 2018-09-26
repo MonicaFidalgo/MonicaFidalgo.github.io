@@ -184,28 +184,6 @@ div.display {
 
 
 
-@media only screen and (max-width: 767px) {
-.menu_rodape {
-    position: relative;
-    margin-left: 20px;
-    margin-top: 40px;
-	}
-}
-
-.redes-sociais a {
-	font-size: 28px;
-	color: #868787;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-.redes-sociais a:hover{
-	font-size:28px;
-	color:#fff;
-	margin-left:10px;
-	margin-right:10px;
-	transition: .5s;
-}
 
 	
 .Title{
@@ -402,7 +380,36 @@ clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 	margin:20px 0;
 }
 
+.owl-nav {
+	z-index: 6;
+	position:absolute;
+	top: 30%;
+    width: 100%;
+	}
 
+.owl-nav button:focus {
+	outline:none;
+}
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next, {
+	width:47px;
+	height: 47px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+	position:absolute;
+	left: 5px;
+	font-size: 70px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+	position:absolute;
+	right: 5px;
+	font-size: 70px;
+}
 
 
 .contactButton {
