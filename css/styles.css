@@ -252,9 +252,9 @@ div.display {
 		padding-bottom:50px;
 		margin-bottom:30px
 	}
-	.Header{
+	/*.Header{
 		height:90vh;
-	}
+	}*/
 		
 	.Title{
 		font-size:40px
@@ -485,7 +485,7 @@ clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 	width: 100%;
 	border-radius: 2px;
 
-	-webkit-transition: all 0.2s linear, 1s; 
+	-webkit-transition:  0.2s linear, 1s; 
 	-moz-transition: all 0.2s linear, 1s;
 	-o-transition: all 0.2s linear, 1s; 
 	-ms-transition: all 0.2s linear, 1s; 
@@ -523,7 +523,7 @@ clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 	position: relative;
 	display: inline-block;
 
-	-webkit-transition: all 0.2s linear, 0.2s; /*chrome*/
+	-webkit-transition:  0.2s linear, 0.2s; /*chrome*/
 	-moz-transition: all 0.2s linear, 0.2s; /*firefox*/
 	-o-transition: all 0.2s linear, 0.2s; /*opera*/
 	-ms-transition: all 0.2s linear, 0.2s; /*microsoft*/
@@ -539,7 +539,7 @@ clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 	top: 0px;
 	opacity: 0; /* isto faz com que nao apareça inicialmente */
 
-	-webkit-transition: all 0.2s linear, 1s; /*chrome*/
+	-webkit-transition: 0.2s linear, 1s; /*chrome*/
 	-moz-transition: all 0.2s linear, 1s; /*firefox*/
 	-o-transition: all 0.2s linear, 1s; /*opera*/
 	-ms-transition: all 0.2s linear, 1s; /*microsoft*/
