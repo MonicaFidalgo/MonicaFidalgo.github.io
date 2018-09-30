@@ -253,7 +253,7 @@ div.display {
 		margin-bottom:30px
 	}
 	.Header{
-		height:80vh;
+		height:90vh;
 	}
 		
 	.Title{
@@ -489,7 +489,7 @@ clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 	-moz-transition: all 0.2s linear, 1s;
 	-o-transition: all 0.2s linear, 1s; 
 	-ms-transition: all 0.2s linear, 1s; 
-	-transition: all 0.2s linear, 1s; 
+	transition: 0.2s linear, 1s; 
 }
 
 .items .item{
@@ -527,7 +527,7 @@ clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 	-moz-transition: all 0.2s linear, 0.2s; /*firefox*/
 	-o-transition: all 0.2s linear, 0.2s; /*opera*/
 	-ms-transition: all 0.2s linear, 0.2s; /*microsoft*/
-	-transition: all 0.2s linear, 0.2s; /*everything else*/
+	transition: 0.2s linear, 0.2s; /*everything else*/
 }
 
 .items .imageOverlay {
@@ -543,7 +543,7 @@ clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 	-moz-transition: all 0.2s linear, 1s; /*firefox*/
 	-o-transition: all 0.2s linear, 1s; /*opera*/
 	-ms-transition: all 0.2s linear, 1s; /*microsoft*/
-	-transition: all 0.2s linear, 1s; /*everything else*/
+	transition: 0.2s linear, 1s; /*everything else*/
 }
 
 
@@ -574,7 +574,7 @@ clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 	-moz-transform: scale(1.05, 1.05); 
 	-o-transform: scale(1.05, 1.05); 
 	-ms-transform: scale(1.05, 1.05); 
-	-transform: scale(1.05, 1.05); 
+	transform: scale(1.05, 1.05); 
 }
 
 .items {
