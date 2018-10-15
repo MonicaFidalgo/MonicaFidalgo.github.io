@@ -1,7 +1,6 @@
 body {
 	font-family: 'Lato', sans-serif;
   	margin:0;
-	font-size:;
 	color: #151311;
 	background-color: #f9f8f8;
 	letter-spacing: 1px;
@@ -58,7 +57,6 @@ body {
   .menu-header {
   	width: 100%;
   	position: fixed;
-  	height: ;
     z-index: 99999;
     padding-top: 0;
     margin-top: 0;
@@ -108,7 +106,6 @@ body {
 	margin-top:20px;
 	list-style:none;
 	padding-left:0;
-	margin-left:;
 }
 
 .menu li.menupages {
@@ -146,8 +143,9 @@ div.nivel_1 {
 div.display {
 	padding-left:40px;
 }
-@media only screen and (max-width: 767px) {
 
+
+@media only screen and (max-width: 767px) {
 
 .sidenav {
     height: 100%;
@@ -470,6 +468,8 @@ clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 }
 
 
+
+
 .items li {
 	display:inline-block;
 	
@@ -478,6 +478,17 @@ clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 .itemsContainer {
 	width: 100%;
 }
+
+
+.items .item {
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+.items .item:hover {
+	cursor: pointer;
+}
+
 
 .items li img {
 	width: 100%;
@@ -490,11 +501,15 @@ clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 	transition: 0.2s linear, 1s; 
 }
 
-.items .item{
-	position: relative;
-	display: block;
-	overflow: hidden;
+.items {
+	padding: 0px;
 }
+
+div.icons {
+	display:none;
+}
+
+@media only screen and (min-width: 1200px) {
 
 .items .icons {
 	position: absolute;
@@ -575,8 +590,6 @@ clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 	transform: scale(1.05, 1.05); 
 }
 
-.items {
-	padding: 0px;
 }
 
 div.copyrightSection.section  {
