@@ -485,8 +485,16 @@ clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 	display: block;
 	overflow: hidden;
 }
+
+@media only screen and (max-width: 1200px) {
+
 .items .item:hover {
 	cursor: pointer;
+}
+
+div.icons {
+	display:none;
+}
 }
 
 
@@ -505,9 +513,7 @@ clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 	padding: 0px;
 }
 
-div.icons {
-	display:none;
-}
+
 
 @media only screen and (min-width: 1200px) {
 
@@ -529,7 +535,7 @@ div.icons {
 	margin-top: 9px;
 }
 
-.items a {
+.items a.projectLink, a.openButton {
 	width: 40px; 
 	height: 40px;
 	background-color: #B53471;
