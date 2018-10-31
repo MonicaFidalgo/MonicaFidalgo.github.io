@@ -147,43 +147,40 @@ div.display {
 
 @media only screen and (max-width: 767px) {
 
-.sidenav {
-    height: 100%;
-    background-color:#111;
-    position:fixed;
-    z-index: 9999999;
-    top: 0;
-    left: auto;
-    right: -100%;
-    overflow-x: hidden;
-    transition: .5s;
-    padding-top: 0;
-    text-align: center;
-    width: 100%;
+	.sidenav {
+		height: 100%;
+		background-color:#111;
+		position:fixed;
+		z-index: 9999999;
+		top: 0;
+		left: auto;
+		right: -100%;
+		overflow-x: hidden;
+		transition: .5s;
+		padding-top: 0;
+		text-align: center;
+		width: 100%;
+	}
+	.sidenav.open {
+		right: 0;
+		left: auto;
+	}
 }
-.sidenav.open {
-    right: 0;
-    left: auto;
-}
-}
+
 @media only screen and (max-width: 767px) {
-.btnclose {
-    position: absolute;
-    left: auto;
-    top: 20px;
-    right: 20px;
-    cursor: pointer;
+	.btnclose {
+		position: absolute;
+		left: auto;
+		top: 20px;
+		right: 20px;
+		cursor: pointer;
+	}
+	div.display {
+		padding-left:0px;
+	}
 }
-div.display {
-	padding-left:0px;
-}
-}
 
 
-
-
-
-	
 .Title{
    color:#54fad4;
    position:absolute;
@@ -230,6 +227,10 @@ div.display {
    position:absolute;
    left:10px
  }
+
+ .items li {
+	padding: 15px;
+}
 
   
 
@@ -302,6 +303,7 @@ div.display {
 			}
 		
 }
+
 
 
 
