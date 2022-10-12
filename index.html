@@ -4,33 +4,83 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- font import -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS only -->
+
+    <link rel="stylesheet" href="./styles/css/index.css" />
+
     <title>Maria Portfolio</title>
   </head>
   <body>
-    <header>
-      <h1>Hello, my name is Maria Albertina <br />A Full Stack Developer</h1>
-      <a href="">Find out more</a>
+    <header class="header">
+      <div class="header-content">
+        <h1 class="header-title">
+          Hello, my name is <span>Maria Albertina </span><br />A Full Stack
+          Developer
+        </h1>
+        <a href="#about" class="button button-primary">Find out more</a>
+        <a href="#about">Find out more</a>
+      </div>
     </header>
     <main>
-      <section class="about">
+      <section class="about" id="about">
         <h2>About me</h2>
-        <div>
+        <div class="modal" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p>Modal body text goes here.</p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content">
           <img
             src="./assets/img/maria-albertina-developer.webp"
             alt="developer maria albertina on a computer"
-            width="400"
+            class="about-img"
           />
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non nulla
-            asperiores soluta commodi maiores deserunt, voluptatibus ut placeat
-            inventore molestiae itaque libero ad minus esse et atque, voluptate
-            officiis obcaecati.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic unde
-            distinctio maiores illum atque vero aliquam.
-          </p>
-          <a href="">View resume</a>
+          <div>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
+              nulla asperiores soluta commodi maiores deserunt, voluptatibus ut
+              placeat inventore molestiae itaque libero ad minus esse et atque,
+              voluptate officiis obcaecati.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic unde
+              distinctio maiores illum atque vero aliquam.
+            </p>
+            <a href="">View resume</a>
+          </div>
         </div>
         <blockquote>Dont comment bad code - rewrite it</blockquote>
         <cite>Brian Kernighan</cite>
